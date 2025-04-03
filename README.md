@@ -1,3 +1,26 @@
+# Huomioita (RT)
+
+Tämä on henkilökohtainen (Robert Tammi) kopio tehtävien palautuksia ja dokumentointia varten. Kaikki opetusmateriaali kuuluu niiden alkuperäisille omistajille. (RT) kappaleet ovat allekirjoittaneen lisäämiä, tarkoituksena tarkentaa käyttötarkoitusta ja omien muistiinpanojen lisäämistä varten.
+
+# Henkilökohtaiset muistiinpanot (RT)
+
+## Oppimismateriaali repon päivitys (RT)
+
+git checkout main  # Switch to main
+
+git fetch upstream  # Get updates from the teacher's repo
+
+git merge upstream/main  # Merge the changes into your main branch
+
+## Oman repon päivittäminen (RT)
+
+git checkout Robert_palautukset
+
+git merge main  # Merge the teacher's updates into your work
+
+git push origin submissions  # Push the latest updates to your fork
+
+
 # HTML ja CSS Kurssi
 
 Tervetuloa **HTML ja CSS Kurssi** repositorioon! Tämä repositorio toimii viikottaisten aiheiden materiaalin jakamiseen. Joka viikko uutta materiaalia ja tehtäviä lisätään repositorioon, joiden avulla saat vahvahn perustan modernista HTML ja CSS koodaamisesta.
