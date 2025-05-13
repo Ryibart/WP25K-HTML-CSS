@@ -18,7 +18,7 @@ git checkout Robert_palautukset
 
 git merge main  # Merge the teacher's updates into your work
 
-git push origin submissions  # Push the latest updates to your fork
+git push origin Robert_palautukset  # Push the latest updates to your fork
 
 
 # HTML ja CSS Kurssi
