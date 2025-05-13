@@ -1,0 +1,41 @@
+<!--
+Tavoite: Luo yksinkertainen HTML-sivu otsikolla "Parasta keväässä", jossa on kaksi kappaletta, kaksi eri Google-fonttia, taustaväri, kontrastivärit tekstille ja gradient-taustainen osio.
+
+1. Luo HTML5-perusrakenne ja linkitä ulkoinen style.css-tiedosto.
+2. Käytä otsikossa Google-fonttia "Playfair Display", ja kappaleissa "Roboto".
+3. Aseta bodylle vaalea taustaväri ja tumma tekstiväri.
+4. Otsikolle oma erottuva väri.
+5. Lisää erillinen <section>-elementti, jossa on liukuväritausta (esim. vaalean sininen → vaaleanpunainen), otsikko ja kappale.
+6. Käytä selkeitä, yksinkertaisia ja luettavia CSS-sääntöjä.
+
+Kirjoita ensin index.html, ja luo siihen kaikki tarvittavat elementit. Sen jälkeen style.css tiedosto, joka sisältää kaikki yllä mainitut tyylit.
+-->
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parasta keväässä</title>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Parasta keväässä</h1>
+	</header>
+	<main>
+		<section class="intro">
+			<p>Tervetuloa kevään ihmeelliseen maailmaan! Kevät tuo tullessaan valon ja värien ilotulituksen.</p>
+			<p>Luonto herää henkiin, ja jokainen päivä on täynnä uusia mahdollisuuksia.</p>
+		</section>
+		<section class="gradient-section">
+			<h2>Kevään kauneus</h2>
+			<p>Kevät on aikaa, jolloin luonto herää eloon. Kukat puhkeavat kukkaan, ja puut saavat vihreän verhonsa takaisin.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2025 Parasta keväässä</p>
+	</footer>
+</body>
+</html>

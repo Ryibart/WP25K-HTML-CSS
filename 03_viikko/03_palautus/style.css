@@ -1,0 +1,57 @@
+/*
+Tavoite: Luo yksinkertainen HTML-sivu otsikolla "Parasta keväässä", jossa on kaksi kappaletta, kaksi eri Google-fonttia, taustaväri, kontrastivärit tekstille ja gradient-taustainen osio.
+
+1. Luo HTML5-perusrakenne ja linkitä ulkoinen style.css-tiedosto.
+2. Käytä otsikossa Google-fonttia "Playfair Display", ja kappaleissa "Roboto".
+3. Aseta bodylle vaalea taustaväri ja tumma tekstiväri.
+4. Otsikolle oma erottuva väri.
+5. Lisää erillinen <section>-elementti, jossa on liukuväritausta (esim. vaalean sininen → vaaleanpunainen), otsikko ja kappale.
+6. Käytä selkeitä, yksinkertaisia ja luettavia CSS-sääntöjä.
+
+Kirjoita ensin index.html, ja luo siihen kaikki tarvittavat elementit. Sen jälkeen style.css tiedosto, joka sisältää kaikki yllä mainitut tyylit.
+-->
+Muista myös otsikoille omat värit
+*/
+
+/* CSS tiedosto: style.css */
+body {
+	background-color: #f0f0f0;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #4a90e2;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+	margin: 0;
+}
+section {
+	background: linear-gradient(to right, #a8e0f7, #f7a8e0);
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+p {
+	margin: 0;
+}
+
